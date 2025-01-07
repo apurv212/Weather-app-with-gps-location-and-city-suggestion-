@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global City Search</title>
+    <link rel="stylesheet" href="q.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Search</h1>
+
+        <div class="input-container">
+            <input 
+                type="text" 
+                placeholder="Enter your city" 
+                id="enterCity" 
+                list="citySuggestions" 
+                autocomplete="on" 
+            />
+            <datalist id="citySuggestions"></datalist>
+            <button id="citySearch">Search</button>
+        </div>
+
+        <div class="info">
+            <h2 id="state">🌍 Location: <span></span></h2>
+            <h2 id="temp">🌡️ Temperature: <span></span></h2>
+            <h2 id="aqi">☀️ UV Index: <span></span></h2>
+            <img src="" id="icon">
+        </div>
+
+        <button id="gps">📌 Get Current Location</button>
+    </div>
+
+    <script src="q.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom right, #6E45E2, #88D3CE);
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #FFCC00;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin: 0.8rem 0;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+h2 span {
+    font-weight: bold;
+    color: #FFCC00;
+}
+
+/* Input and Button Styles */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+input[type="text"] {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #333333;
+    color: #FFFFFF;
+    outline: none;
+    transition: box-shadow 0.3s;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 8px #FFCC00;
+}
+
+input[type="text"]::placeholder {
+    color: #AAAAAA;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFCC00;
+    color: #1C1C1C;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #FFC107;
+}
+
+button:active {
+    transform: scale(0.95);
+    background-color: #36e600;
+    color: white;
+}
+
+/* Image Styling */
+img {
+  
+    margin-top: 1rem;
+   
+}
+
+/* Layout for Information */
+.info h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    input[type="text"], button {
+        font-size: 0.9rem;
+    }
+}
