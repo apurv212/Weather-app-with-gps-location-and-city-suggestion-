@@ -1,6 +1,6 @@
 
-const WEATHER_API_KEY = "ur api key"; 
-const GEOCODING_API_KEY = "ur api key"; 
+const WEATHER_API_KEY = "1bb3696924c242e7a67171624241710"; 
+const GEOCODING_API_KEY = "9ec923a8aa6f4a0ba64a29aa4f18d5a5"; 
 
 let jenterCity = document.getElementById('enterCity');
 let jcitySearch = document.getElementById('citySearch');

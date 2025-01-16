@@ -1,4 +1,3 @@
-/* General Styling */
 body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to bottom right, #6E45E2, #88D3CE);
@@ -21,7 +20,7 @@ body {
     max-width: 500px;
 }
 
-/* Headings */
+
 h1 {
     font-size: 2.8rem;
     font-weight: bold;
@@ -41,7 +40,7 @@ h2 span {
     color: #FFCC00;
 }
 
-/* Input and Button Styles */
+
 .input-container {
     display: flex;
     flex-direction: column;
@@ -99,14 +98,14 @@ img {
    
 }
 
-/* Layout for Information */
+
 .info h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 2.2rem;
