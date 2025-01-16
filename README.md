@@ -2,6 +2,8 @@
 use ur own api key
 1. WEATHER_API_KEY =- weatherapi.com
 2. GEOCODING_API_KEY = opencagedata.com
+---
+## Note: due to CORS Issues free weather api will not work on hosted website like vercel,netlify thats why search functionality is not working 
 
 
 
